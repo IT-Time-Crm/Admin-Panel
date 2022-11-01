@@ -1,6 +1,8 @@
 import { Route, Routes } from "react-router-dom";
 import "./App.css";
+import Blog from "./components/Blog/Blog";
 import Category from "./components/Category/Category";
+import New from "./components/News/News";
 import Product from "./components/Product/Product";
 import ProductAbout from "./components/ProductAbout/ProductAbout";
 import UserTable from "./components/UserTable/UserTable";
@@ -23,6 +25,8 @@ function App() {
             <Route path="/product" element={<Product />} />
             <Route path="/category" element={<Category />} />
             <Route path="/product-about" element={<ProductAbout />} />
+            <Route path="/blog" element={<Blog />} />
+            <Route path="/new" element={<New />} />
           </Routes>
         </div>
       </div>

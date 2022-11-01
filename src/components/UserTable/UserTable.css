@@ -219,6 +219,7 @@ thead th {
   margin: 5px 0;
   outline: none;
   resize: none;
+  overflow: hidden;
 }
 
 .user-inputs::placeholder{

@@ -60,7 +60,7 @@ const Aside = () => {
             </Link>
           </li>
           <li className="aside-item">
-            <Link onClick={handleAddClass} to="/category" className="aside-link">
+            <Link onClick={handleAddClass} to="/blog" className="aside-link">
               <New /> <p>Blogs</p>
             </Link>
           </li>
@@ -70,7 +70,7 @@ const Aside = () => {
             </Link>
           </li>
           <li className="aside-item">
-            <Link onClick={handleAddClass} to="/category" className="aside-link">
+            <Link onClick={handleAddClass} to="/new" className="aside-link">
               <New /> <p>Yangiliklar</p>
             </Link>
           </li>
