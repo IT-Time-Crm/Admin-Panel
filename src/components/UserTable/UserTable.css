@@ -1,0 +1,246 @@
+.user-table {
+  width: 100%;
+  text-align: start;
+  padding-top: 15px;
+}
+
+.user {
+  width: 100%;
+  background-color: #fff;
+  padding: 8px 18px 12px;
+  margin: 15px 0;
+}
+.users-span {
+  display: flex;
+  align-items: center;
+}
+
+.menu-btn {
+  background-color: white;
+  border: none;
+}
+.menu-btn img {
+  width: 18px;
+  height: 18px;
+}
+
+thead,
+tbody {
+  text-align: start;
+}
+
+thead th {
+  text-align: start;
+}
+
+.users-avatar {
+  width: 36px;
+  height: 36px;
+}
+
+.users-span span p:nth-child(1) {
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 17px;
+  color: #333333;
+  padding-left: 8px;
+}
+.users-span span p:nth-child(2) {
+  font-style: normal;
+  font-weight: normal;
+  font-size: 12px;
+  line-height: 14px;
+  color: #808080;
+  padding-left: 8px;
+}
+
+.tbody-checkbox {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  margin-top: 18px;
+}
+thead th {
+  color: #b2b2b2;
+  font-weight: 600;
+  font-size: 16px;
+  margin-bottom: 20px;
+}
+.tbody-tr {
+  height: 55px;
+}
+
+.user-list {
+  display: flex;
+  align-items: center;
+  list-style: none;
+  margin-bottom: 15px;
+  padding: 10px 0;
+  margin-left: -10px;
+}
+
+.user-link {
+  font-family: "SF Pro Display";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 21px;
+  text-align: center;
+  text-decoration: none;
+  padding: 0 15px;
+}
+
+
+
+.user-button {
+  background: #6f6af8;
+  border-radius: 5px;
+  width: 160px;
+  height: 45px;
+  border: 2px solid #6f6af8;
+  font-family: "SF Pro Display";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 19px;
+  color: #fff;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
+}
+
+.user-image {
+  margin: 0 5px;
+}
+
+.user-titles {
+  display: flex;
+  align-items: center;
+}
+
+.user-title {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 10px 0;
+}
+
+.user-label {
+  display: flex;
+  align-items: center;
+  width: 300px;
+  border-radius: 5px;
+  background-color: #EFEFEF;
+  padding: 5px 16px;
+}
+
+.user-input {
+  width: 240px;
+  border: none;
+  outline: none;
+  padding: 8px 11px;
+  background-color: transparent;
+}
+
+.user-buttons {
+  background: #3fc033;
+  border-radius: 5px;
+  width: 140px;
+  height: 45px;
+  border: 2px solid #3fc033;
+  font-family: "SF Pro Display";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 19px;
+  color: #fff;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 0 10px;
+  cursor: pointer;
+}
+
+.user-btn {
+  background: #EFEFEF;
+  border-radius: 5px;
+  font-family: "SF Pro Display";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 19px;
+  color: #6C6C6C;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 160px;
+  height: 45px;
+  border: none;
+  cursor: pointer;
+}
+
+
+.wrapper{
+    margin-left: 30px;
+}
+
+.user-close{
+  border: none;
+  outline: none;
+  background-color: transparent;
+  font-weight: bold;
+  font-size: 40px;
+  color: red;
+  margin-left: 10px;
+  cursor: pointer;
+}
+
+.user-form{
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+}
+
+.user-labels{
+  display: flex;
+  margin: 10px;
+  flex-direction: column;
+  color: #6f6af8;
+  font-weight: 600;
+  font-size: 18px;
+  line-height: 24px;
+}
+
+.user-inputs{
+  border: 1px solid #6f6af8;
+  padding: 15px;
+  border-radius: 5px;
+  margin: 5px 0;
+  outline: none;
+  resize: none;
+}
+
+.user-inputs::placeholder{
+  font-size: 14px;
+  color: #6f6af8;
+}
+
+.user-submit{
+  border: 2px solid #6f6af8;
+  background-color: #6f6af8;
+  color: #fff;
+  width: 180px;
+  height: 45px;
+  font-size: 18px;
+  line-height: 22px;
+  font-weight: 500;
+  margin: 10px;
+  cursor: pointer;
+  border-radius: 8px;
+}
+
+.user-bottom{
+  display: flex;
+  justify-content: end;
+}

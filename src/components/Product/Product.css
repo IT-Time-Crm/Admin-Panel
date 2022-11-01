@@ -1,0 +1,32 @@
+.product-table{
+  width: 100%;
+  text-align: start;
+  padding: 15px;
+}
+
+.product{
+    background-color: #fff;
+    padding: 25px;
+    width: 98%;
+    margin: 15px 30px;
+}
+
+.product-thead{
+    width: 98%;
+}
+
+.product-name{
+    color:#000;
+}
+
+.product-tr{
+    height: 55px;
+}
+
+.product-names{
+    text-align: start;
+}
+
+ textarea {
+    height: 60px;
+}
